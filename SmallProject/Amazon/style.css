@@ -1,0 +1,35 @@
+    /*  https://cdnjs.com/libraries/font-awesome     This link is style css*/
+    
+    *{
+        margin: 0;
+        font-family: cursive;
+        border: border-box;
+
+    }
+    .navbar{
+        height: 60px;
+       background-color: #0f1111;
+       color: white;
+       display: flex;
+    }
+    .nav-logo{
+        height: 50px;
+        width: 130px;
+
+    }
+    .logo{
+        background-image: url();
+        background-size: cover;
+        height: 50px;
+        width: 100px;
+    
+    }
+    .border{
+        border: 1.5 solid transparent;
+    }
+    
+    .border:hover {
+        border: 1.5 solid whitesmokess;
+     }
+
+    

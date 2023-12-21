@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Protfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Protfolio </div>
+            <div class="right">
+                <ul>
+                    <li><a href=""> Home </a></li>
+                    <li><a href="./About.html"> About </a></li>
+                    <li><a href=""> Service </a></li>
+                    <li><a href=""> Project </a></li>
+                    <li><a href="./contact.html"> Contact Me </a></li>
+                </ul>
+            </div>
+    </header>
+
+    <main>
+
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello!
+               <h4> My name is <span class="text-purple">Avinash </span></h4>
+               <div> and I am Passionate.</div>
+                     <span id="element"></span>
+                       <div class="button">
+                              <button class="btn">Download Resume</button>
+                              <button class="btn">Visit Github</button>
+                       </div>
+            </div>
+            <div class="rightsection">
+                <img src="./header_img.jpg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience </h1>
+
+            <div class="box"></div>
+        </section>
+        
+    </main> 
+    <footer >
+           <div class="footer">
+                <div class="footer-first">
+                      <h3>Avinash Developer Protfolio.</h3>
+                </div>
+                <div class="footer-second">
+                                 <ul>
+                                    <li>Home</li>
+                                    <li>About</li>
+                                    <li>Service</li>
+                                    <li>Project </li>
+                                    <li>Contact Me</li>
+                                 </ul>
+                </div>
+                <div class="footer-third">
+                    <ul>
+                         <li> <i class="fi fi-brands-instagram"> <a href="https://www.linkedin.com/in/avinash-muley-a81270229/">LinkedIn</a></i></li>
+                        <li><img src="" alt="git_logo"> <a href="https://github.com/avinashmuley">GitHub</a></li>
+                        <li><img src="./instagram.png"  alt="insta_logo"><a href="">Instagram</a></li>
+                        <li><a href="">Social Media</a> </li>
+                     </ul> 
+                </div>
+                <div class="footer-fourth">
+                  
+                </div>
+                
+           </div>
+           <p>Copyright &#169; avi_muley || All rights Reserved.</p>
+    </footer>
+    
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer','Web Designer', 'Video Editor.'],
+          typeSpeed: 170,
+        });
+        </script>
+</body>
+</html> 
