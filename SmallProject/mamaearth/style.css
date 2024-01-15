@@ -109,10 +109,10 @@
 
 /* Add to Cart Button */
 .add-cart1{
-    display: flex;
+   display: flex;
    justify-content: space-between;
    position: fixed;
-   text-align: center;
+   text-align: left;
 }
 
 .cart-1{

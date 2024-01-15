@@ -46,7 +46,7 @@ nav li:first-child{
     width: 250px;
     z-index: 999;
     background-color: rgb(255,255,255,0.1);
-    backdrop-filter: blur(10px) ;
+    backdrop-filter: blur(9px) ;
     box-shadow: -10px 0 10px rgb(0,0,0,0.1);
     display: none;
     flex-direction: column;
@@ -62,7 +62,7 @@ nav li:first-child{
 .menu-button{
     display: none;
 }
-@media (max-width:599px){
+@media (max-width:799px){
     .hideonmobaile{
    display: none;
     }
@@ -70,8 +70,8 @@ nav li:first-child{
         display: block;
     }
 }
-@media (max-width:400px){
+@media (max-width:300px){
     .sidebar{
-        width: 100%;
+        width:100%;
     }
 }
