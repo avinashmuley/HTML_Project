@@ -1,0 +1,248 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor:  default;
+}
+.mess{
+    background-color: #f04438;
+    height: 27.68px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+.mess p{
+    font-family: "Open sans",sans-serif;
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.mess p:hover{
+    -webkit-text-decoration: 1.5px underline;
+            text-decoration: 1.5px underline;
+}
+.mess i{
+    color: #ffffff;
+    margin-top: 5px;
+    
+}
+.navbar{
+    height: 100px;
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-shadow: #505050;
+            box-shadow: #505050;
+    padding: 7.5px 78.792px;
+}
+
+.logo{
+    content: url("./png/logo1.png");
+    width: 200px;
+    height: 31px;
+}
+
+.nav-search{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 620px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.search-input{
+    width: 80%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 1.2rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111; 
+} 
+.search-button {
+    background-color: #00AFEF;
+    width: 100px;
+    color: #fff;   
+   
+}
+.search-button p{
+    padding: 8px 11.5px;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* Add to Cart Button */
+.add-cart1{
+    display: flex;
+   justify-content: space-between;
+   position: fixed;
+   text-align: center;
+}
+
+.cart-1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    color: #505050;
+    display: flex;
+    font-size: 13.125px;
+    margin: 5px;
+    font-weight: 400;
+    padding: 3px;
+    cursor: pointer;
+}
+.cart-1 i{
+    height: 22px;
+    width: 22px;
+    color: #00AFEF;
+    position: relative;
+}
+
+.nav-log{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    color: #505050;
+    font-size: 13.125px;
+    margin: 5px;
+    font-weight: 300;
+    padding: 3px 0px 0px;
+    cursor: pointer;
+}
+.nav-log i{
+    height: 22px;
+    width: 22px;
+    color: #00AFEF; 
+    position: relative;
+}
+/* .border1:hover{
+    border: 0.9px solid #00AFEF;
+    border-radius: 10px;
+    padding: 10px;
+} */
+
+/* Different option bar  */
+.option{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 40px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+   padding: 7.8px 78.792px;
+
+}
+.option i{
+  text-decoration: none;
+}
+.option p{
+    display: inline;
+    margin-left: 15px;
+    font-size: 12px;
+    color: #909090;
+    font-family: 'Open sans',sans-serif;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.option p:hover{
+    color: #00AFEF;
+}
+
+
+/* Shoping Cards  */
+.cards{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex ;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top:8px;
+margin-bottom: 80px;
+}
+.card{
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+   
+}
+.card img{
+    height: 250px;
+    width: 290px;
+}
+.card h5{
+    font-size: 15px;
+    margin: 12px 0px 3px;
+    padding: 0px 12px;
+}
+.card p{
+    color: #4b8b0b;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font: 400;
+    font-size: 14px;
+    padding: 0px 11.2px;
+}
+.card h4{
+    text-align: center;
+}
+.add_cart{
+    color: #ffffff;
+    background-color: #00AFEF;
+    padding: 11px 15px;
+}
+.add_cart h3{
+    font-size: 16px;
+    text-align: center;
+    margin: 2px;
+}
+
+
+footer{
+    background-color: aliceblue;
+    color: #ffffff;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+}

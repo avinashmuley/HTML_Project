@@ -47,9 +47,8 @@
     
   }
   .container h2{
-    font-size: x-large
-    ;
-    text-decoration: rgb(180, 234, 142) wavy underline;
+    font-size: x-large;
+   
   }
   
   /* Create two columns that float next to eachother */
@@ -94,7 +93,8 @@
         <!-- <label for="contact">Contact</label>
         <input type="text" id="number" name="Contact" placeholder="Your Contact.."> -->
         <label for="country">State</label>
-        <select id="state" name="state">
+        <select id="state" name="state" >
+          <option value="option ">select </option>
           <option value="australia">Nagpur</option>
           <option value="canada">Pune</option>
           <option value="usa">Mumbai</option>
@@ -106,7 +106,7 @@
         </select>
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" onclick="submit()">
       </form>
     </div>
   </div>

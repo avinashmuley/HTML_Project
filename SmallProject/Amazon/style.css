@@ -130,7 +130,9 @@ span{
     width: 78%;
     font-size: 0.85rem;
 }
-
+.panel-ops i{
+    color: #ffffff;
+}
 .panel-deals{
     font-size: 0.9rem;
     font-weight: 700;
@@ -162,7 +164,6 @@ span{
 .hero-message a{
     color: #007185;
 }
-/* box7 */
 
 .shop-section{
     /* margin-top: -7rem; */
