@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Developer Protfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,19 +13,25 @@
 </head>
 
 <body>
-    <header>
         <nav>
-            <div class="left">Protfolio</div>
-            <div class="right">
-                <ul>
-                    <li><a href=""> Home </a></li>
-                    <li><a href="./About.html"> About </a></li>
-                    <li><a href=""> Service </a></li>
-                    <li><a href=""> Project </a></li>
-                    <li><a href="./contact.html"> Contact Me </a></li>
-                </ul>
-            </div>
-    </header>
+            <ul class="sidebar">
+               <li onclick=hidesidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Contact me</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Portfolio</a></li>
+                <li class="hideonmobaile"><a href="#">Home</a></li>
+                <li class="hideonmobaile"><a href="#">About</a></li>
+                <li class="hideonmobaile"><a href="#">Service</a></li>
+                <li class="hideonmobaile"><a href="#">Project</a></li>
+                <li class="hideonmobaile"><a href="#">Contact me</a></li>
+                <li onclick=showSidebar()  class="menu-button"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
 
     <main>
 
@@ -55,8 +62,8 @@
                 <li> <p>Codekul is a technology training institute based in Pune, India. 
                     They offer courses in various programming languages, software testing, web development, mobile app development, 
                     and other IT-related fields. The institute is known for its practical approach to training, focusing on hands-on learning and real-world projects. 
-                    They cater to both beginners and experienced professionals looking to upgrade their skills in the IT industry. 
-                 <br><br>   <b>(1 Year Experience)</b></p></li>
+                    They cater to both beginners and experienced professionals looking to upgrade their skills in the IT industry.</p></li>
+                <li><p>Pune Maharastra. <br><br> <b>{ 1 Year Experience }</b></p> </li>
                 
             </ul>
             </div>
@@ -70,7 +77,7 @@
                 <h3>JavaScript</h3>
                 <h3>React.js</h3>
                 <h3>BootStrap</h3>
-                <h3>MySql</h3>
+                <h3>MySQL</h3>
             </div>
         </section>
         
@@ -91,9 +98,9 @@
                 </div>
                 <div class="footer-third">
                     <ul>
-                         <li><a href=""><i class="fa-brands fa-linkedin"></i>  LinkedIn</a></li>
-                        <li><a href=""><i class="fa-brands fa-github"></i>  GitHub</a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram"></i>  Instagram</a></li>
+                         <li class="LinkedIn"><a href=""><i class="fa-brands fa-linkedin"></i>  LinkedIn</a></li>
+                        <li class="git"><a href=""><i class="fa-brands fa-github"></i>  GitHub</a></li>
+                        <li class="insta"><a href=""><i class="fa-brands fa-instagram"></i>  Instagram</a></li>
                         <li><a href=""> <i class="fa-solid fa-hashtag"></i>  Social Media</a> </li>
                      </ul> 
                 </div>
@@ -114,6 +121,16 @@
           strings: ['Web Developer', 'Graphic Designer','Web Designer', 'Video Editor.'],
           typeSpeed: 170,
         });
+
+        function showSidebar(){
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'flex'
+    }
+    function hidesidebar(){
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'none'
+    }
         </script>
+   
 </body>
 </html> 

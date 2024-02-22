@@ -1,5 +1,8 @@
-function opengit() {
-    const button = document.querySelector('.button')
- .onclick= 'https://www.youtube.com/@chaiaurcode/videos'
+function showSidebar(){
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'flex'
 }
- 
+function hidesidebar(){
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'none'
+}

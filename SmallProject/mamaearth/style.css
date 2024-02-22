@@ -11,21 +11,26 @@
     font-family: Arial, Helvetica, sans-serif;
     cursor:  default;
 }
+body{
+flex-wrap: wrap;
+align-items: center;
+}
 .mess{
     background-color: #f04438;
-    height: 27.68px;
+    height: 28.68px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+            justify-content: space-evenly; 
 }
 .mess p{
     font-family: "Open sans",sans-serif;
     color: white;
     font-size: 12px;
     margin-top: 5px;
+    letter-spacing: 1px; 
 }
 
 .mess p:hover{
@@ -34,8 +39,13 @@
 }
 .mess i{
     color: #ffffff;
-    margin-top: 5px;
-    
+    margin-top: 5px; 
+    margin-left: 600px;  
+}
+@media (max-width:600px) {
+    .mess{
+       
+    }
 }
 .navbar{
     height: 100px;
@@ -70,13 +80,16 @@
     width: 620px;
     height: 35px;
     border-radius: 4px;
-    border: 1px solid black;
+    border: 0.01px solid rgb(142, 141, 141);
 }
-
+.nav-search:hover{
+    border: 0.5px solid black;
+}
 .search-input{
     width: 80%;
     font-size: 1rem;
     border: none;
+
 }
 .search-icon{
     width: 45px;
@@ -101,7 +114,7 @@
    
 }
 .search-button p{
-    padding: 8px 11.5px;
+    padding: 10px 11.5px;
     align-items: center;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
@@ -110,14 +123,10 @@
 /* Add to Cart Button */
 .add-cart1{
    display: flex;
-   justify-content: space-between;
-   position: fixed;
-   text-align: left;
+   justify-content: space-evenly;
 }
 
 .cart-1{
-    display: -webkit-box;
-    display: -ms-flexbox;
     color: #505050;
     display: flex;
     font-size: 13.125px;
@@ -131,6 +140,7 @@
     width: 22px;
     color: #00AFEF;
     position: relative;
+    padding-top: 5px;
 }
 
 .nav-log{
@@ -149,11 +159,14 @@
     color: #00AFEF; 
     position: relative;
 }
-/* .border1:hover{
-    border: 0.9px solid #00AFEF;
+.add-cart1 .border1{
+    /* border: 0.9px solid #00AFEF; */
     border-radius: 10px;
-    padding: 10px;
-} */
+    padding: 6px;
+}
+.border1:hover{
+      border: 0.9px solid #00AFEF;
+}
 
 /* Different option bar  */
 .option{

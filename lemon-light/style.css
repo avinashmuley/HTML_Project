@@ -1,0 +1,31 @@
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+
+:root {
+    /* background color */
+    --bg-white:#fff
+
+    /* Text Colors */
+    --primary-text:#061738;
+    --secondary-color: #60cd12;
+    --light-color:#e2f6de;
+    --dark-color:#03262c;
+    --text-white:#fff;
+    --text-gray:#dee2e6;
+    --anchor-color:#007aff;
+
+    /* font family */
+    -primar-font:'Barlow Condensed', sans-serif;
+    --secondary-font : 'Roboto', sans-serif;
+}
+
+body,html {
+color: var(--primary-text);
+}
